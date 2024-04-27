@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/guitar.avif" 
+        "image": "/./guitar.avif" 
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/piano.avif" 
+        "image": "/./piano.avif" 
       },
       {
         "id": 3,

@@ -13,7 +13,7 @@ function HeroSection() {
 
       <div className=" mt-20 p-12 relative z-10 w-full text-center">
 
-      <h1 className="mt-20 md:mt-20rem text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Master the art of Music</h1>
+      <h1 className="mt-20  text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 md:mt-20rem text-4xl md:text-7xl font-bold">Master the art of Music</h1>
 
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Dive into comprehensive music courses and transform your music journey

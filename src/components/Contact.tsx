@@ -1,6 +1,5 @@
 import { Input } from "./ui/input";
-// import { Button } from "./ui/moving-border";
-export default function Contact() {
+export default function contact() {
   return (
     <div className="h-[28rem] w-full dark:bg-black  relative flex flex-col items-center justify-center overflow-hidden">
       <div className="max-w-7xl max-auto px-4 sm:px-6"></div>
