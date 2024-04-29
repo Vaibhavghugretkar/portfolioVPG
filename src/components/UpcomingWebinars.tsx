@@ -63,7 +63,7 @@ function UpcomingWebinars() {
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 relative z-30">
          <HoverEffect items={featuredWebinars.map(webinar =>({
             title: webinar.title,
             description:webinar.description,

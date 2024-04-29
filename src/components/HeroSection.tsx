@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className="h-auto md:h-[40 rem] w-full  rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 ">
 
-<Spotlight className="-top-40 left-0 md:left-60 md:-top-20"
+<Spotlight className="top-0 left--10 md:left-60 md:-top-20"
         fill="white" />
 
       <div className=" mt-20 p-12 relative z-10 w-full text-center">

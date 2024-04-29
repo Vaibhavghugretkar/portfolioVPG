@@ -9,19 +9,20 @@ export default function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
 
   return (
+        
        <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-40" , className)}
+      className={cn("absolute top-10 inset-x-0 max-w-2xl mx-auto z-40" , className)}
     >
      <Menu setActive={setActive}>
 
-        <Link href={"/"} className="text-xl">
+        <Link href={"/"} className="lg:text-xl sm:text-xs md:text-xl">
         <MenuItem setActive={setActive} active={active}
         item="Home">
         </MenuItem>
         </Link>
 
 
-<Link href={"/courses"}  className="text-xl">
+<Link href={"/courses"}  className="lg:text-xl sm:text-xs md:text-xl">
 <MenuItem
 setActive={setActive} active={active}
         item="Our Courses"
@@ -29,8 +30,9 @@ setActive={setActive} active={active}
 </MenuItem>
 </Link>
 
-<Link href={"/"}  className="text-xl">
+<Link href={"#contact"}  className="lg:text-xl sm:text-xs md:text-xl">
 <MenuItem setActive={setActive} active={active}
+     
         item="Contact us">
 </MenuItem>
 </Link>
