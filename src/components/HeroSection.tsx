@@ -16,7 +16,8 @@ function HeroSection() {
           <p className="mt-12 text-white lg:text-3xl sm:text-xl text-center">
             Hey, there I'm
           </p>
-          <h1 className="mt-15  text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 md:mt-20rem text-2xl md:text-6xl font-bold sm:6xl">
+          <h1 className="mt-15  text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 md:mt-20rem text-2xl md:text-6xl font-bold sm:&apos;6xl">
+
             Vaibhav Ghugretkar
           </h1>
 
