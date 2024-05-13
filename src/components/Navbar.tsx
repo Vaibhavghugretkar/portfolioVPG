@@ -22,18 +22,25 @@ export default function Navbar({ className }: { className?: string }) {
         </Link>
 
 
-<Link href={"/courses"}  className="lg:text-xl sm:text-xs md:text-xl">
+<Link href={"#skills"}  className="lg:text-xl sm:text-xs md:text-xl">
 <MenuItem
 setActive={setActive} active={active}
-        item="Our Courses"
+        item="Skills"
         >
+</MenuItem>
+</Link>
+
+<Link href={"#projects"}  className="lg:text-xl sm:text-xs md:text-xl">
+<MenuItem setActive={setActive} active={active}
+     
+        item="Projects">
 </MenuItem>
 </Link>
 
 <Link href={"#contact"}  className="lg:text-xl sm:text-xs md:text-xl">
 <MenuItem setActive={setActive} active={active}
      
-        item="Contact us">
+        item="Contact">
 </MenuItem>
 </Link>
 

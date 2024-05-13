@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import Courses from "@/components/Courses";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -12,9 +13,10 @@ export default function Home() {
  <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
   <HeroSection/>
   <FeaturedCourses/>
-  <MusicSchoolTestimonials/>
-  <UpcomingWebinars/>
-  <Instructors/>
+  {/* <MusicSchoolTestimonials/> */}
+  {/* <UpcomingWebinars/> */}
+  {/* <Instructors/> */}
+  <Courses/>
   <Contact/>
   <Footer/>
  </main>

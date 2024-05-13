@@ -17,15 +17,12 @@ interface Course{
 const featuredCourses = CourseData.courses.filter((course:Course)=> course.isFeatured)
 
   return (
-    <div className="py-12 bg-gray-900">
+    <div id="skills" className="py-12 bg-gradient-to-r from-black to-gray-900">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
-            FEATURED COURSES
+          <h2 className="text-3xl lg:text-5xl text-teal-600 font-semibold tracking-wide uppercase">
+            Skills
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Learn With The Best
-          </p>
         </div>
       </div>
 
@@ -34,29 +31,17 @@ const featuredCourses = CourseData.courses.filter((course:Course)=> course.isFea
 {featuredCourses.map((course:Course)=>(
 <div key={course.id} className="flex justify-center">
 <BackgroundGradient
-  className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+  className="flex flex-col rounded-[22px] w-96  bg-white dark:bg-zinc-900 overflow-hidden h-36 max-w-sm">
 
 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                                <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                                <Link href={`/courses/${course.slug}`} className="text-white">
-                                Learn More
-                                </Link>
+                                <p className="text-2xl sm:text-2xl text-black mt-4 mb-2 dark:text-neutral-200 font-bold">{course.title}</p>
+                                <p className="text-xl text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                             </div>
 </BackgroundGradient>
     </div>
 ))}
 </div>
 
-      </div>
-
-      <div className="mt-20 text-center">
-        <Link
-          href={"/courses"}
-          className="px-3 py-3 rounded-lg border border-teal-600 text-white text-28 bg-black  hover:bg-teal-600 hover:text-black transition duration-200"
-        >
-          View all courses
-        </Link>
       </div>
     </div>
   );
