@@ -10,7 +10,7 @@ function HeroSection() {
 
       <div className="h-auto md:h-[40 rem] w-full  rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 ">
         <div className="align-middle items-center sm:align-middle sm:justify-center sm:items-center">
-      <img src="/Grey_minimalist_business_project_presentation___1_-removebg-preview.png" width={900} height={900} className="mt-16"/>
+      <Image src="/Grey_minimalist_business_project_presentation___1_-removebg-preview.png" width={900} height={900} className="mt-16" alt=""/>
       </div>
         <div className="mt-[-144px] p-12 relative z-10 w-full text-center">
           <p className="mt-12 text-white lg:text-3xl sm:text-xl text-center">
